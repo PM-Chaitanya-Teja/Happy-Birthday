@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Birthday Surprise</title>
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+</head>
+<body>
+
+  <!-- Name Input Section -->
+  <div class="container fade" id="inputSection">
+    <h1>🎉 Type Your Name 🎉</h1>
+    <input type="text" id="nameInput" placeholder="Enter your name..." />
+    <button onclick="startSurprise()">Search</button>
+  </div>
+
+  <!-- Searching Transition Section -->
+  <div class="container hidden fade" id="searchingSection">
+    <h1 id="searchMessage">🔍 Searching...</h1>
+  </div>
+
+  <!-- Birthday Message Section -->
+  <div class="container hidden fade" id="birthdaySection">
+    <h1 class="birthday-header">🎂 Happy Birthday, <span id="nameDisplay"></span>! 🎈</h1>
+    <h2 id="finalMessage" class="birthday-subtext"></h2>
+    <p id="customWish" class="birthday-message"></p>
+    <p id="fromMessage" class="birthday-from">— From, Shiva</p>
+  </div>
+
+
+
+  <script src="script.js"></script>
+</body>
+</html>
