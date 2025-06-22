@@ -18,8 +18,8 @@ window.startSurprise = function () {
       document.getElementById("finalMessage").textContent =
         "One more year closer to becoming alumni legends!";
       document.getElementById("customWish").textContent =
-        "Wishing you endless joy, laughter, and love on your special day. May this year bring you everything you’ve dreamed of!";
-      document.getElementById("fromMessage").textContent = "— From, Chaitanya Teja";
+        "Wishing you endless joy, laughter, and love on your special day. May this year bring you everything you've dreamed of!";
+      document.getElementById("fromMessage").textContent = "~ From, Chaitanya Teja";
     }, 2000);
   }, 1500);
 };
